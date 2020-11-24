@@ -1,0 +1,14 @@
+1 para 1
+
+    ATIVIDADE pertence AULA
+
+1 para N
+                    CLIENTES
+    VENDEDOR atende CLIENTES
+                    CLIENTES
+N para N
+
+    PRODUTO        NOTA
+    PRODUTO compra NOTA
+    PRODUTO        NOTA
+

@@ -1,0 +1,25 @@
+<%- include ("partils/header.ejs"); %> 
+<%- include ("partils/homenavbar.ejs"); %> 
+<body>
+    <div class="container">
+        <hr>
+        <% articles.forEach(article =>{ %> 
+            <div class="card">
+                <div class="card-header">
+                    <h2><%- article.title %></h2>
+                </div>
+                <div class="card-body">
+                    <a class="btn btn-success" href="/<%= article.slug %> "><%= article.title  %> </a>
+                </div>
+            </div>
+            <br>
+         <% }) %> 
+         <div class="row">
+             <div class="col col-12">
+                 <a href="/articles/page/2" style="float: right;">Next>>>></a>
+             </div>
+         </div>
+         <hr>
+    </div>
+</body>
+<%- include ("partils/footer.ejs"); %> 
